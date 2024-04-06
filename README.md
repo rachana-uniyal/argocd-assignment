@@ -113,13 +113,15 @@ kubectl get application -n argocd
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/rachana-uniyal/argocd-assignment/main/youtube/deployment.yaml
 ```
-
+![canary](images/Screenshot 2024-04-06 at 3.50.07 PM.png
 Monitor and promote the rollout:
 
 ```bash
 kubectl argo rollouts get rollout youtube-main --watch
 kubectl argo rollouts promote youtube-main
 ```
+
+![canary](images/Screenshot 2024-04-06 at 3.55.20 PM.png)
 
 To revert all changes made during the setup and deployment process, follow these steps:
 
