@@ -108,6 +108,7 @@ kubectl get application -n argocd
 ![argo-app-init](images/1.png)
 
 UI View
+
 ![argo-app-ui](images/2.png)
 
 ## Implement Argo Rollouts
