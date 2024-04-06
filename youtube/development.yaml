@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: youtube-main
-          image: uniyalrachna/youtube-main:v1
+          image: uniyalrachna/youtube-main:v2
           ports:
             - containerPort: 80
   strategy:
