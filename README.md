@@ -9,6 +9,7 @@ Before you begin, ensure you have:
 - A Kubernetes cluster
 - `kubectl` configured to communicate with your cluster
 - Docker installed for building and pushing your container image
+- web application : https://github.com/rachana-uniyal/youtube
 
 ## Setup
 
