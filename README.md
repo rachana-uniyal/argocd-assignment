@@ -105,6 +105,10 @@ Verify the application deployment:
 ```bash
 kubectl get application -n argocd
 ```
+![argo-ui](images/1.png)
+
+UI View
+![argo-ui](images/2.png)
 
 ## Implement Argo Rollouts
 
@@ -113,13 +117,20 @@ kubectl get application -n argocd
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/rachana-uniyal/argocd-assignment/main/youtube/deployment.yaml
 ```
-![argo-ui](images/4)
+
 Monitor and promote the rollout:
 
 ```bash
-kubectl argo rollouts get rollout youtube-main --watch
+kubectl argo rollouts get rollout youtube-main --watch```
+
+![argo-ui](images/3.png)
+
+```bash
 kubectl argo rollouts promote youtube-main
 ```
+![argo-ui](images/4.png)
+
+Dashboard View
 
 ![canary](images/5.png)
 
