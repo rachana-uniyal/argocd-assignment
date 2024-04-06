@@ -111,7 +111,6 @@ kubectl get application -n argocd
 
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/rachana-uniyal/argocd-assignment/main/youtube/deployment.yaml
-kubectl apply -f https://raw.githubusercontent.com/rachana-uniyal/argocd-assignment/main/youtube/development.yaml
 ```
 
 Monitor and promote the rollout:
