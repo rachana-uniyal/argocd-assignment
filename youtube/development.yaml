@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: youtube-main
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: youtube-main
+  template:
+    metadata:
+      labels:
+        app: youtube-main
+    spec:
+      containers:
+        - name: youtube-main
+          image: uniyalrachna/youtube-main:v1
+          ports:
+            - containerPort: 80
